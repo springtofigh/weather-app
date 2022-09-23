@@ -5,7 +5,6 @@
     --text_dark: #070a11;
     --red: #ff1e42;
     --darkred: #c3112d;
-    --orange: #ff8c00;
   }
   
   * {
@@ -22,11 +21,11 @@
   button {
     cursor: pointer;
   }
-   
+
   input {
     -webkit-appearance: none;
   }
-   
+
   button,
   input {
     border: none;
@@ -56,14 +55,14 @@
     background-attachment: fixed;
     padding: 70px;
   }
-  
+
   .container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
-
+  
   .container-1 {
     width: 100%;
     max-width: 1200px;
@@ -144,7 +143,7 @@
     color: var(--text_light);
   }
   
-  .ajax-section figcaption {
+  .ajax-section figurcaption {
     margin-top: 10px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -156,17 +155,6 @@
     font-weight: bold;
     margin-top: 10px;
     color: var(--text_dark);
-  }
-  
-  .ajax-section .city sup {
-    font-size: 0.5em;
-  }
-  
-  .ajax-section .city-name sup {
-    padding: 0.2em 0.6em;
-    border-radius: 30px;
-    color: var(--text_light);
-    background: var(--orange);
   }
   
   .ajax-section .city-icon {

@@ -5,7 +5,7 @@ const msg = document.querySelector(".top-banner .msg");
 const list = document.querySelector(".ajax-section .cities")
 
 // API KEY
-const apiKey = "edc228562ac0a8aa3116d41c0687cf56";
+const apiKey = "41fa47ae982344451853e8c548d149b2";
 
 form.addEventListener("submit", e => {
     e.preventDefault();
@@ -25,8 +25,8 @@ form.addEventListener("submit", e => {
         </h2>
             <div class='city-temp'>${Math.round(main.temp)}</div>
         <figure>
-                <img class= 'city-icon' src= 'icon' alt='abohava shahr'>
-                <figcaption>${weather[0]["description"]}</figcaption>
+                <img class='city-icon' src='${icon}' alt='city weather'>
+                <figurcaption>${weather[0]["description"]}</figurcaption>
         </figure>
         `;
         li.innerHTML = markup;
@@ -34,7 +34,7 @@ form.addEventListener("submit", e => {
         msg.innerText = ""
     })
     .catch(() => {
-        msg.innerText = "Please write s valid city"
+        msg.innerText = "Please write a valid city"
     })
     input.value = ""
 })
