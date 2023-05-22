@@ -9,7 +9,7 @@ Receiving weather data from various cities around the world using the free Open 
 [![Weather App-3](https://i.im.ge/2023/05/21/hXiOIy.Weather-App-3.png)](https://im.ge/i/hXiOIy)
 
 
-## Technologies that I use in this peoject
+## Technologies that I used in this project
 
 ✴ HTML
 
